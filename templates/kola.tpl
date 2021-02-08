@@ -16,7 +16,7 @@
 {$count=$smarty.section.bike.index+1}
 
 				<div class="col-md-4 col-sm-6 fh5co-project">
-					<a href="http://{$smarty.server.SERVER_NAME}/kolo/{$BikesArray[bike].url}.html"><img src="http://{$smarty.server.SERVER_NAME}/kolo/{$BikesArray[bike].url}/thm.jpg" alt="{$BikesArray[bike].title}" class="img-responsive">
+					<a href="#"><img src="http://{$smarty.server.SERVER_NAME}/kolo/{$BikesArray[bike].url}/thm.jpg" alt="{$BikesArray[bike].title}" class="img-responsive">
 						<div class="fh5co-copy">
 							<h3>{$BikesArray[bike].title}</h3>
 							<p>{$BikesArray[bike].desc}</p>
